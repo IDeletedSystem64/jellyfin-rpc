@@ -1,6 +1,6 @@
 # Jellyfin-RPC
 
-<img src="https://shields.io/github/license/radiicall/jellyfin-rpc?color=purple"/> <img src="https://shields.io/github/v/tag/Radiicall/jellyfin-rpc"/> <img src="https://shields.io/github/downloads/radiicall/jellyfin-rpc/total"/>
+<img src="https://shields.io/github/license/radiicall/jellyfin-rpc?color=purple"/> 
 
 [Frequently Asked Questions](FAQ.md)
 
