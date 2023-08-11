@@ -113,7 +113,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             .discord
             .clone()
             .and_then(|discord| discord.application_id)
-            .unwrap_or(String::from("1053747938519679018"))
+            .unwrap_or(String::from("1139409624794152990"))
             .as_str(),
     )
     .expect("Failed to create Discord RPC client, discord is down or the Client ID is invalid.");
@@ -339,7 +339,7 @@ fn setactivity<'a>(
 ) -> activity::Activity<'a> {
     let mut new_activity = activity::Activity::new().details(details);
 
-    let mut image_url = "https://s1.qwant.com/thumbr/0x380/0/6/aec9d939d464cc4e3b4c9d7879936fbc61901ccd9847d45c68a3ce2dbd86f0/cover.jpg?u=https%3A%2F%2Farchive.org%2Fdownload%2Fgithub.com-jellyfin-jellyfin_-_2020-09-15_17-17-00%2Fcover.jpg";
+    let mut image_url = "https://system64.dev/do-not-delete/jellyfin.png";
 
     if media_type == &MediaType::LiveTv {
         image_url = "https://i.imgur.com/XxdHOqm.png"
