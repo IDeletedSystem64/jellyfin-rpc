@@ -339,7 +339,7 @@ fn setactivity<'a>(
 ) -> activity::Activity<'a> {
     let mut new_activity = activity::Activity::new().details(details);
 
-    let mut image_url = "https://system64.dev/do-not-delete/jellyfin.png";
+    let mut image_url = "https://system64.dev/do-not-delete/jellyfin_.png";
 
     if media_type == &MediaType::LiveTv {
         image_url = "https://i.imgur.com/XxdHOqm.png"
